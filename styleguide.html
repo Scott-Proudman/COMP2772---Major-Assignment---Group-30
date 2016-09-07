@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Style Guide</title>
+<link href="styleguide.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<!-- Sidebar Scroller -->
+<script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#sticker");
+	var pos = s.position();					   
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		//s.html("Distance from top:" + pos.top + "<br />Scroll position: " + windowpos);
+		if (windowpos >= 120) {
+			s.addClass("stick");
+		} else {
+			s.removeClass("stick");	
+		}
+	});
+});
+</script>
+
+
+
+	<!-- Header -->
+	<div class="mainHeader">
+    	<div class="header">
+            <a href="styleguide.html" target="_self" id="logo">
+        	<img src="images/logo.png" width="300" height="85" alt="Logo">
+            </a>
+            <h1>Style Guide</h1>
+        </div>
+    </div>
+    
+    
+    <!-- Container -->
+    <div class="container">
+    
+    	<!-- Navbar -->
+        <div id="sideBar">
+            <div id="sticker">
+            <h1>Navigation</h1>
+            <ul>
+            	<li> Layout </li>
+                <li> Typography </li>
+                <li> Color </li>
+                <li> Buttons </li>
+                <li> Navigation </li>
+                <li> Forms </li>
+            </ul>
+            
+            </div>
+        </div>
+        
+        <!-- Main -->
+        <div class="main">
+        <p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec odio felis. Donec faucibus, neque et euismod ultricies, nunc tortor ultrices urna, et eleifend enim nisl eget odio. Vivamus malesuada, elit vitae vestibulum placerat, lectus ex varius nulla, sed pulvinar nisi quam id augue. Vivamus ullamcorper condimentum sapien, nec laoreet ante. In fermentum libero at mauris ornare, a tincidunt ligula iaculis. Vivamus lectus elit, facilisis et tempus at, viverra eu nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce egestas augue nisi, eget porttitor ante fringilla in.
+
+Nulla hendrerit cursus eleifend. Sed pharetra ligula est, vel facilisis eros tempus at. In fermentum nibh quam, quis placerat risus bibendum vel. Aenean ac congue eros, vel finibus lorem. Nulla blandit dui libero, quis lacinia arcu pulvinar nec. Etiam et euismod velit. Mauris viverra lorem non vestibulum aliquet. Nunc tempus erat tortor, sed pretium arcu accumsan in. Vivamus feugiat eleifend nulla vel commodo. Proin suscipit elit sit amet orci malesuada tristique.
+
+Phasellus id sem id sapien consectetur egestas. Pellentesque maximus eros in enim condimentum, eget tincidunt mi scelerisque. Nullam non placerat enim. Aliquam commodo felis in arcu venenatis mollis. Praesent facilisis urna vitae vehicula tempus. Proin feugiat ligula non iaculis sagittis. Quisque et vulputate metus. Cras pharetra purus a massa venenatis ultricies. Curabitur vitae neque eu diam euismod porta et ac ligula. Ut a sapien consequat, luctus purus ac, porttitor est. Phasellus vitae laoreet massa, sit amet commodo orci. Curabitur mollis eget neque quis accumsan. In libero purus, consequat in sem sit amet, congue sollicitudin est. Proin vitae est feugiat, tincidunt velit ut, iaculis neque. Mauris lacinia vel leo eu imperdiet. Aenean semper sollicitudin justo.
+
+Aliquam interdum leo vitae ligula accumsan, non sollicitudin orci vestibulum. Duis aliquet, sem porttitor gravida auctor, turpis nulla dignissim justo, convallis maximus mi nibh at nulla. Suspendisse gravida, mauris quis ullamcorper consequat, ante elit laoreet sapien, sagittis vestibulum sem tellus sit amet risus. Vivamus non tincidunt tellus. Donec leo mauris, porta vel aliquet eget, iaculis at lectus. Quisque pharetra ex eu dolor suscipit, ac cursus eros vulputate. Proin in tellus a magna suscipit dignissim et a odio. Nulla vitae erat eu diam malesuada luctus quis et tortor. Sed dapibus, arcu at aliquet euismod, dui purus mattis nulla, eu feugiat purus arcu eu felis. Donec ut nibh purus. Vestibulum rhoncus lacus dui, vitae tempor urna egestas non. Pellentesque suscipit viverra ex. Quisque nibh orci, ultricies porttitor faucibus eu, pellentesque id ante. Phasellus dignissim nisl vel augue fringilla maximus. Aliquam sit amet ex in sapien rhoncus porta.
+
+Proin convallis nisi non vestibulum accumsan. Sed risus est, volutpat ut varius at, faucibus sit amet ligula. Nam ut interdum magna, id porttitor mi. Nunc blandit elementum nulla a vulputate. Duis ut arcu nisl. Nullam luctus nibh elementum viverra ultricies. Mauris vehicula metus in erat mattis finibus. Nulla rutrum libero et est bibendum, nec ullamcorper velit vulputate.
+
+Suspendisse efficitur magna at mollis dignissim. Pellentesque iaculis dapibus sem, ac maximus ligula fringilla quis. In consequat massa in lectus sodales feugiat. Suspendisse eu tempor nunc. Maecenas nec vestibulum urna, eu vestibulum quam. Nulla eget tempor nunc, id placerat dolor. Etiam suscipit elementum bibendum. Donec et arcu ac lectus consectetur finibus id a velit. Etiam risus nisi, facilisis quis gravida sed, molestie bibendum urna. Duis hendrerit placerat neque ut luctus.
+
+Maecenas sollicitudin, mi molestie sagittis bibendum, metus nulla venenatis ex, sed elementum eros tortor non purus. Nam efficitur quis neque a auctor. Donec feugiat maximus augue vel malesuada. Donec vitae consequat urna. In hac habitasse platea dictumst. Etiam non ligula posuere felis porttitor mattis vel quis orci. Nam sit amet purus vitae lacus aliquam facilisis non sit amet enim.
+
+        </p>
+        
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>
